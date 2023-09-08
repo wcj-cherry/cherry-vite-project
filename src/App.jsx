@@ -10,7 +10,9 @@ function App() {
       <MainContent />
       <ButtonClick />
       {/* <Course course={{ title: "Amgular", description: "Demo Courses" }} /> */}
-      <Allcourses />
+      <div>
+        <Allcourses />
+      </div>
     </div>
   );
 }

@@ -9,13 +9,11 @@ const Allcourses = () => {
   ]);
 
   return (
-    <>
-      <h1>All courses</h1>
-      <p>List of courses:</p>
+    <div className="flex justify-around">
       {courses.length > 0
         ? courses.map((item) => <Course course={item} />)
         : "No Courses"}
-    </>
+    </div>
   );
 };
 
